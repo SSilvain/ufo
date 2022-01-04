@@ -3,9 +3,26 @@
 
 .button {
 	display: inline-flex;
-	padding: 0px 0px;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: $selectColor;
+	color: $lightText;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: rem(18);
+	min-width: rem(250);
+	min-height: rem(65);
+	letter-spacing: 0.1em;
+	transition: all .3s ease;
+	// background-position: 0 0;
+	background: linear-gradient(135.29deg, #EBC07D 0%, #CE7E00 100%);
+	box-shadow: 7px 15px 19px rgba(206, 126, 0, 0.2);
+	border-radius: 55px;
 	@media (any-hover: hover) {
 		&:hover {
+			box-shadow: 0px 0px 19px rgba(206, 126, 0, 0.9);
+			// background-position: 100px 0;
 		}
 	}
 	&._fw {
