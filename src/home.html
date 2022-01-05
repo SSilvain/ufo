@@ -1,117 +1,144 @@
 <!DOCTYPE html>
 <html lang="ru">
-	@@include('html/_head.htm',{
-	"title":"Главная"
-	})
-	<body>
-		<div class="wrapper">
-			@@include('html/_header.htm',{})
-			<main class="page ">
-				<section class="alien">
-					<div class="alien__container">
-						<div class="alien__image"><img src="@img/" alt="Alien"></div>
-						<div class="alien__body">
-							<h2 class="alien__title page-title">We will make your browsing the Internet secure and anonymous.</h2>
-							<p class="alien__text page-text">Search for information or watch your favorite shows without ads or third party tracking! With Vpnufo, your accounts are completely safe.</p>
-						</div>
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page ">
+			<section class="alien">
+				<div class="alien__container">
+					<div class="alien__image"><img src="@img/alien.svg" alt="Alien"></div>
+					<div class="alien__body">
+						<h2 class="alien__title page-title">We will make your browsing the Internet secure and
+							anonymous.</h2>
+						<p class="alien__text page-text">Search for information or watch your favorite shows without ads
+							or third party tracking! With Vpnufo, your accounts are completely safe.</p>
 					</div>
-				</section>
-				<section class="features">
-					<div class="features__container">
-						<div class="features__body">
+				</div>
+			</section>
+			<section class="features">
+				<div class="features__container">
+					<div class="features__box features__box--first">
+						<div class="features__text-content">
 							<h2 class="features__title page-title page-title--upper">features</h2>
-							<p class="features__text page-text">With Vpnufo your work will be fun and fast! And most importantly - it's free! Play, enjoy movies and chat with like-minded people without thinking that afterwards you will receive a bill for using the service. </p>
+							<p class="features__text page-text">With Vpnufo your work will be fun and fast! And most
+								importantly - it's free! Play, enjoy movies and chat with like-minded people without
+								thinking that afterwards you will receive a bill for using the service. </p>
 						</div>
-						<div class="features__image"><img src="@img/" alt="Fetures"></div>
+						<div class="features__image"><img src="@img/cow.svg" alt="Fetures"></div>
 					</div>
-					<div class="features__container">
-						<div class="features__image"><img src="@img/" alt="Fetures"></div>
-						<div class="features__body">
-							<p class="features__text page-text">We have created a unique work system for Vpnufo. 
-								Our users connect directly to each other, sharing their IP in exchange for free unlimited VPN use. This favorably distinguishes Vpnufo in the modern VPN services market.</p>
-						</div>
-					</div>
-				</section>
-				<section class="free">
-					<div class="free__container">
-						<div class="free__image"><img src="@img/" alt="Alien"></div>
-						<div class="free__body">
-							<h2 class="free__title page-title page-title--upper">free plan</h2>
-							<p class="free__text page-text">The unique system of Vpnufo allows our customers not to pay for the service and use a free plan. We always offer only the most favorable conditions for you!</p>
-						</div>
-						<button class="free__button button">Get it free</button>
-					</div>
-				</section>
-				<section class="adventages">
-					<div class="adventages__container">
-						<div class="adventages__body">
-							<h2 class="adventages__title page-title page-title--upper">24/7 support</h2>
-							<p class="adventages__text page-text">Our support managers are available 24/7 and are always ready to help you with any question!</p>
-						</div>
-						<div class="adventages__body">
-							<h2 class="adventages__title page-title page-title--upper">p2p network</h2>
-							<p class="adventages__text page-text">We use a P2P network, which means that your Internet connection will always be stable and fast</p>
-						</div>
-						<div class="adventages__body">
-							<h2 class="adventages__title page-title page-title--upper">built-in adblock</h2>
-							<p class="adventages__text page-text"> And the built-in adblock will protect you from unnecessary annoying ads.</p>
+					<div class="features__box features__box--second">
+						<div class="features__image"><img src="@img/tea.svg" alt="Fetures"></div>
+						<div class="features__text-content">
+							<p class="features__text page-text">We have created a unique work system for Vpnufo.
+								Our users connect directly to each other, sharing their IP in exchange for free unlimited
+								VPN use. This favorably distinguishes Vpnufo in the modern VPN services market.</p>
+							
 						</div>
 					</div>
-				</section>
-				<section class="feedbacks">
-					<div class="feedbacks__container">
-						<h2 class="feedbacks__title page-title page-title--upper">feedbacks</h2>
-						<div class="feedbacks__body">
-							<div class="feedbacks__box">
-								<p class="feedbacks__text page-text">An excellent service for working with multiple accounts at the same time! I no longer worry that my accounts will be blocked</p>
-								<div class="feedbacks__footer footer-feedbacks">
-									<img src="" alt="" class="footer-feedbacks__ava">
-									<div class="footer-feedbacks__data">
-										<div class="footer-feedbacks__name">Ufo</div>
-										<div class="footer-feedbacks__date">29.12.2289</div>
-									</div>
-								</div>
-							</div>
-							<div class="feedbacks__box">
-								<p class="feedbacks__text page-text">If not for Vpnufo, my online business would have been blown away a long time ago! Thank you guys, you are helping me earn more.</p>
-								<div class="feedbacks__footer footer-feedbacks">
-									<img src="" alt="" class="footer-feedbacks__ava">
-									<div class="footer-feedbacks__data">
-										<div class="footer-feedbacks__name">Ufo</div>
-										<div class="footer-feedbacks__date">29.12.2289</div>
-									</div>
-								</div>
-							</div>
-							<div class="feedbacks__box">
-								<p class="feedbacks__text page-text">I live in a country with strict Internet restrictions. Thanks to Vpnufo, I can get in touch with my friends on social networks prohibited in my country, watch films and matches anonymously and at high speed.</p>
-								<div class="feedbacks__footer footer-feedbacks">
-									<img src="" alt="" class="footer-feedbacks__ava">
-									<div class="footer-feedbacks__data">
-										<div class="footer-feedbacks__name">Ufo</div>
-										<div class="footer-feedbacks__date">29.12.2289</div>
-									</div>
+				</div>
+			</section>
+			<section class="free">
+				<div class="free__container">
+					<div class="free__box">
+						<div class="free__image"><img src="@img/spaceman.svg" alt="Free"></div>
+						<div class="free__text-content">
+							<h2 class="free__title page-title page-title--upper"><span>free</span> plan</h2>
+							<p class="free__text page-text">The unique system of Vpnufo allows our customers not to pay for
+								the service and use a free plan. We always offer only the most favorable conditions for you!
+							</p>
+							<button class="free__button button">Get it free</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="adventages">
+				<div class="adventages__container">
+					<div class="adventages__box">
+						<h2 class="adventages__title page-title page-title--upper">24/7 support</h2>
+						<p class="adventages__text page-text">Our support managers are available 24/7 and are always
+							ready to help you with any question!</p>
+					</div>
+					<div class="adventages__box">
+						<h2 class="adventages__title page-title page-title--upper">p2p network</h2>
+						<p class="adventages__text page-text">We use a P2P network, which means that your Internet
+							connection will always be stable and fast</p>
+					</div>
+					<div class="adventages__box">
+						<h2 class="adventages__title page-title page-title--upper">built-in adblock</h2>
+						<p class="adventages__text page-text"> And the built-in adblock will protect you from
+							unnecessary annoying ads.</p>
+					</div>
+				</div>
+			</section>
+			<section class="feedbacks">
+				<div class="feedbacks__container">
+					<h2 class="feedbacks__title page-title page-title--upper">feedbacks</h2>
+					<div class="feedbacks__wrapper">
+						<div class="feedbacks__box">
+							<p class="feedbacks__text page-text">An excellent service for working with multiple accounts
+								at the same time! I no longer worry that my accounts will be blocked</p>
+							<div class="feedbacks__footer footer-feedbacks">
+								<img src="@img/feedbacks-ava-1.svg" alt="Ava" class="footer-feedbacks__ava">
+								<div class="footer-feedbacks__data">
+									<div class="footer-feedbacks__name">Ufo</div>
+									<div class="footer-feedbacks__date">29.12.2289</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq__container">
-						<h2 class="faq__title page-title">FAQ</h2>
-						<div class="faq__body">
-							<h3 class="faq__subtitle">What is Vpnufo?</h3>
-							<p class="faq__text page-text">Vpnufo is a community of users who make information on the Internet available to each other. In other words, Vpnufo is a Peer-to-Peer VPN that is ad-free and free of charge.
-								Will my information be available to other users in the community?
-								Definitely not. Vpnufo handles your HTTP requests in browsing mode, the same way as a regular Internet service provider.</p>
-							<h3 class="faq__subtitle">Why is Vpnufo free?</h3>
-							<p class="faq__text page-text">You do not pay for the plan because you are trading some of your device's resources (Wi-Fi and very limited cellular data) for a Vpnufo proxy. We use a special network for HTTP, with which you can access the sites you need through the devices of other Vpnufo users, and not through expensive servers.</p>
+						<div class="feedbacks__box">
+							<p class="feedbacks__text page-text">If not for Vpnufo, my online business would have been
+								blown away a long time ago! Thank you guys, you are helping me earn more.</p>
+							<div class="feedbacks__footer footer-feedbacks">
+								<img src="@img/feedbacks-ava-2.svg" alt="Ava" class="footer-feedbacks__ava">
+								<div class="footer-feedbacks__data">
+									<div class="footer-feedbacks__name">Ufo</div>
+									<div class="footer-feedbacks__date">29.12.2289</div>
+								</div>
+							</div>
+						</div>
+						<div class="feedbacks__box">
+							<p class="feedbacks__text page-text">I live in a country with strict Internet restrictions.
+								Thanks to Vpnufo, I can get in touch with my friends on social networks prohibited in my
+								country, watch films and matches anonymously and at high speed.</p>
+							<div class="feedbacks__footer footer-feedbacks">
+								<img src="@img/feedbacks-ava-3.svg" alt="Ava" class="footer-feedbacks__ava">
+								<div class="footer-feedbacks__data">
+									<div class="footer-feedbacks__name">Ufo</div>
+									<div class="footer-feedbacks__date">29.12.2289</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</section>
-			</main>
-			@@include('html/_footer.htm',{})
-		</div>
-		@@include('html/_popup.htm',{})
-		@@include('html/_js.htm',{})
-	</body>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq__container">
+					<h2 class="faq__title page-title">FAQ</h2>
+					<div class="faq__body">
+						<h3 class="faq__subtitle">What is Vpnufo?</h3>
+						<p class="faq__text page-text">Vpnufo is a community of users who make information on the
+							Internet available to each other. In other words, Vpnufo is a Peer-to-Peer VPN that is
+							ad-free and free of charge.
+							Will my information be available to other users in the community?
+							Definitely not. Vpnufo handles your HTTP requests in browsing mode, the same way as a
+							regular Internet service provider.</p>
+						<h3 class="faq__subtitle">Why is Vpnufo free?</h3>
+						<p class="faq__text page-text">You do not pay for the plan because you are trading some of your
+							device's resources (Wi-Fi and very limited cellular data) for a Vpnufo proxy. We use a
+							special network for HTTP, with which you can access the sites you need through the devices
+							of other Vpnufo users, and not through expensive servers.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
 </html>

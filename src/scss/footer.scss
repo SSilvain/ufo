@@ -1,4 +1,107 @@
 //====================================================================================================
 
+.footer {
+	color: $lightText;
+	background: url("@img/footer-bg.png") no-repeat 50% 0;
+
+	// .footer__container
+
+	&__container {
+		padding-top: rem(20);
+		padding-bottom: rem(20);
+		min-height: rem(198);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .footer__logo
+
+	&__logo {
+		color: $lightText;
+		font-size: rem(58);
+	}
+
+	// .footer__menu
+
+	&__menu {}
+
+	// .footer__contact
+
+	&__contact {
+		position: relative;
+		&::before{
+			content: "";
+			position: absolute;
+			display: block;
+			width: rem(140);
+			height: rem(140);
+			top: rem(-70);
+			left: rem(-140);
+			background: url("@img/alien-footer.svg") center no-repeat;
+			background-size: cover;
+		}
+	}
+}
+
+.logo {
+
+	// .logo__link
+
+	&__link {}
+}
+
+.menu-footer {
+
+	// .menu-footer__list
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	// .menu-footer__item
+
+	&__item {
+		margin-bottom: rem(5);
+		font-weight: 600;
+		font-size: rem(14);
+		line-height: math.div(21,14);
+		position: relative;
+		overflow: hidden;
+
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: rem(1);
+			background-color: $lightText;
+			bottom: 0;
+			left: -100%;
+			transition: all .2s ease-out;
+		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				&::before {
+					left: 0;
+				}
+			}
+		}
+	}
+
+	// .menu-footer__link
+
+	&__link {}
+}
+
+.contact-footer {
+
+	// .contact-footer__link
+
+	&__link {}
+}
 
 //====================================================================================================
